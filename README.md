@@ -4,12 +4,12 @@
 
 ## **What ?**
 
-The aim of the project is to improve Alzheimer's and Dementia patient care by implementing a multi-modal solution.
+The aim of the project is to develop a prototype improve Alzheimer's and Dementia patient care by implementing a multi-modal solution.
 
 ## **Why ?**
 
 Research states that ~44% of the Alzheimer's and Dementia patient are prone to severe physical injury especially due to falling and fail to efficiently communicate.
-Gemini 3 Pro provides transfer learning with few shot learning for developing a multimodal system for monitoring patients effectively. Eventhough there are wearable sensors the anomlous reads could be contextualized with images and audio data. This could provide faster decision making for administrating the right type of care procedure.
+Gemini 3 Pro provides transfer learning with few shot learning for developing a multimodal system for monitoring patients effectively. Eventhough there are wearable sensors the signals could be contextualized with images and audio data. This could provide faster decision making for administrating the right type of care procedure.
 
 ## **How ?**
 
@@ -26,6 +26,16 @@ As Output, it produces
 - Recommended Action
 - Reasoning and Evidence
 
+It follows 3 scenarios
+- Baseline: Everything that is normal
+- Minimum Anomaly: Patient with slight distress
+- Maximum Anomaly: Patient experienced fall
+
+
+## **Impact**
+- Improved Patient care targetted towards ~ 44 % of the cohort
+- Cost reduction in developing ML system from data gathering, engineering to ml modelling for predictive modelling
+- Extremely fast prototyping, business development, product ideation, pilot execution and product development.
 
 ## **Future Work**
 
