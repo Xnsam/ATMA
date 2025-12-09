@@ -13,7 +13,7 @@ Gemini 3 Pro provides transfer learning with few shot learning for developing a 
 
 ## **How ?**
 
-A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) Vibe coding with prompt 
+A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) Vibe coding with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
 
 
 As Input it takes two sets of data.
@@ -37,4 +37,5 @@ I would like to extend this as a multi-agent framework using Google ADK + Antigr
 - The audio sample was resourced from [this](https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset) kaggle dataset
 - [Video Link]()
 - [App Link](https://ai.studio/apps/drive/16bU1iLNSbAarjo4niCCpeGEjIDVNP4MV?fullscreenApplet=true)
-
+- [Github](https://github.com/Xnsam/ATMA)
+- [Test Data]()
