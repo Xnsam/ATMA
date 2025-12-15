@@ -27,12 +27,14 @@ A prototype was developed using [Google AI Studio](https://aistudio.google.com/a
 - Reasoning and Evidence
 
 <h4> It follows 3 scenarios </h4>
+
 - Baseline: Everything that is normal
 - Minimum Anomaly: Patient with slight distress
 - Maximum Anomaly: Patient experienced fall
 
 
 <h2> Impact </h2>
+
 - Improved Patient care targetted towards ~ 44 % of the cohort
 - Cost reduction in developing ML system from data gathering, engineering to ml modelling for predictive modelling
 - Extremely fast prototyping, business development, product ideation, pilot execution and product development.
