@@ -49,7 +49,7 @@ The project is deployed on premise, no data leaves the premise.
 
 <h3> ToDo </h3>
 
-LLM 
+LLM + ML
 - [ ] Model selection for Mixture of Experts (MoE) - (gemma3: 4b, ?, ? )
 - [ ] Optimization / Ensemble function to minimize Consensus illusion. refer: https://openreview.net/forum?id=saDOrrnNTz
 - [ ] Hardware selection for deployment
