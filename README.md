@@ -43,16 +43,25 @@ A prototype was developed using [Google AI Studio](https://aistudio.google.com/a
 
 <h3> Deployment Workflow </h3>
 
+The project is deployed on premise, no data leaves the premise.
+
 <img width="2700" height="1508" alt="image" src="https://github.com/user-attachments/assets/3c36f385-aba8-434b-8fe0-8fe77c4ee9dd" />
 
 <h3> ToDo </h3>
 
+LLM 
 - [ ] Model selection for Mixture of Experts (MoE) - (gemma3: 4b, ?, ? )
 - [ ] Optimization / Ensemble function to minimize Consensus illusion. refer: https://openreview.net/forum?id=saDOrrnNTz
 - [ ] Hardware selection for deployment
 - [ ] Prototype development and simulation
 - [ ] Evaluation framework low TN, low TP, high recall, Precision and balanced F1 score
 
+Andriod APP
+- [ ] Develop an APP for Carers
+- [ ] Dashboard APP for Admin at Care Home
+
+Network Configuaration
+- [ ] Network Security and Efficient Data transfer
 
 
 
