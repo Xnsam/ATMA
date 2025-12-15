@@ -15,32 +15,49 @@ Gemini 3 Pro provides transfer learning with few shot learning for developing a 
 
 A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) Vibe coding with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
 
-#### As Input it takes two sets of data.
+<h4>As Input it takes two sets of data</h4>
+
 - Baseline: The baseline images of the patient (probably lying on bed), audio recording and the wearable sensor data of the patient. It is used a reference of what looks like normal.
 - Real time: The real time image, audio, sensor data indicating a fall / distress
 
-#### As Output, it produces
+<h4> As Output, it produces </h4>
+
 - Levels of urgency - 1 / 2 / 3
 - Recommended Action
 - Reasoning and Evidence
 
-#### It follows 3 scenarios
+<h4> It follows 3 scenarios </h4>
 - Baseline: Everything that is normal
 - Minimum Anomaly: Patient with slight distress
 - Maximum Anomaly: Patient experienced fall
 
 
-## **Impact**
+<h2> Impact </h2>
 - Improved Patient care targetted towards ~ 44 % of the cohort
 - Cost reduction in developing ML system from data gathering, engineering to ml modelling for predictive modelling
 - Extremely fast prototyping, business development, product ideation, pilot execution and product development.
 
-## **Future Work**
+## **Extension**
 
-I would like to extend this as a multi-agent framework using Google ADK + Antigravity to deploy the app in a production setting.
+<h3> Deployment Workflow </h3>
+
+<img width="2700" height="1508" alt="image" src="https://github.com/user-attachments/assets/3c36f385-aba8-434b-8fe0-8fe77c4ee9dd" />
+
+<h3> ToDo </h3>
+
+- [ ] Model selection for Mixture of Experts (MoE) - (gemma3: 4b, ?, ? )
+- [ ] Optimization / Ensemble function to minimize Consensus illusion. refer: https://openreview.net/forum?id=saDOrrnNTz
+- [ ] Hardware selection for deployment
+- [ ] Prototype development and simulation
+- [ ] Evaluation framework low TN, low TP, high recall, Precision and balanced F1 score
+
+
+
+
 
 
 ## **Notes**
+
 - The image and sensor sample data was generated using [Nano Banana] (https://gemini.google/overview/image-generation/) and Gemini 3
 - The audio sample was resourced from [this](https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset) kaggle dataset
 - [Video Link](https://www.youtube.com/watch?v=12u7EAVwhtc)
