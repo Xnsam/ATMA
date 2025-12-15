@@ -4,7 +4,14 @@
 
 ## **What ?**
 
-The aim of the project is to develop a prototype improve Alzheimer's and Dementia patient care by implementing a multi-modal solution.
+The aim of the project is to develop a prototype improve Alzheimer's and Dementia patient care by implementing a multi-modal solution with small Visual Language Models (VLMs).
+
+- The prototype ( proof of concept ) that states the VLM is capable of addressing such a usecase is developed in Google AI Studio.
+- The actual solution is currently under development on local machines with open source small VLMs for cost-effective implementations with performance considerations.
+- The solution is targeted to be deployed on-premise with edge computers ( like Raspberry Pi 5 ) with audio and video sensors for data inputs and processing.
+- The data is not supposed to be stored / transferred anywhere and only used on-premise for critical decision making.
+- The research perspective is to improvise model performance ( possibly through attention mechanism optimization ) in constraint setting with few shot learning paradigm for acceptable level of performance. 
+
 
 ## **Why ?**
 
