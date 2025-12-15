@@ -1,0 +1,5 @@
+{
+  "name": "ATMA - Alzheimer's Crisis Triage",
+  "description": "A multimodal triage monitoring system for Alzheimer's & Dementia patients, analyzing image, audio, and sensor data.",
+  "requestFramePermissions": []
+}
