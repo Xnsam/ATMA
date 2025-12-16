@@ -29,7 +29,7 @@ Gemini 3 Pro provides transfer learning with few shot learning for developing a 
 
 ## **How ?**
 
-A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) natural language prompting and LLM-assisted code generation with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
+A prototype (single multimodal AI) was developed using [Google AI Studio](https://aistudio.google.com/apps) natural language prompting and LLM-assisted code generation with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
 
 <h4>As Input it takes two sets of data</h4>
 
