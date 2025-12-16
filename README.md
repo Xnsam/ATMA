@@ -5,9 +5,10 @@
 
 - **Objective**: Developing a multimodal VLM solution for real-time patient distress monitoring, leveraging Small Visual Language Models (Small VLMs) and sensor data for rapid, contextual decision-making in a constrained setting.
 - **Architecture & Deployment**: Designing a cost-effective, privacy-centric, on-premise deployment workflow using small, open-source VLMs and edge computing hardware (e.g., Raspberry Pi 5). The system is architected as a Mixture of Experts (MoE) model.
+- **Current Phase**: Conducting comparative performance analysis of open-source Small VLMs (e.g., Moondream, PaliGemma, or Phi-3-Vision) to evaluate their feasibility as specialized "experts".
 - **Technical Challenges** : Currently optimizing the MoE ensemble function to minimize 'Consensus Illusion', ensuring robust decision-making across visual, audio, and wearable sensor inputs.
-- **Research Focus**: Exploring attention mechanism optimization and few-shot learning paradigms within the constrained environment to achieve acceptable performance (high Recall, balanced F1 score) while adhering to strict low-latency and data privacy policies.
-- **Validation**: Developed an initial proof-of-concept prototype in Google AI Studio and local Ollama deployment of Gemma 3:4b  that successfully maps baseline vs. anomalous multimodal input to categorized output.
+- **Research Focus**: Exploring attention mechanism optimization and few-shot learning paradigms within the constrained environment to achieve acceptable performance (high Recall, balanced F1 score) while adhering to strict low-latency and data privacy policies. Designing evaluation benchmarks for consensus illusion and high-recall decision-making in under 5 seconds.
+- **Data Strategy**: Implementing synthetic data generation pipelines (inspired by AlanaVLM) to standardize testing across candidate models.
 
 
 ## **What ?**
