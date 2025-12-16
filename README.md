@@ -29,7 +29,7 @@ Gemini 3 Pro provides transfer learning with few shot learning for developing a 
 
 ## **How ?**
 
-A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) Vibe coding with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
+A prototype was developed using [Google AI Studio](https://aistudio.google.com/apps) natural language prompting and LLM-assisted code generation with [prompt](https://github.com/Xnsam/ATMA/blob/main/ai_studio_prompt.txt)
 
 <h4>As Input it takes two sets of data</h4>
 
@@ -41,6 +41,11 @@ A prototype was developed using [Google AI Studio](https://aistudio.google.com/a
 - Levels of urgency - 1 / 2 / 3
 - Recommended Action
 - Reasoning and Evidence
+
+<img width="2864" height="2002" alt="image" src="https://github.com/user-attachments/assets/a1a4420e-4a5f-4c7e-bde6-22277a69c91b" />
+
+<img width="2532" height="1904" alt="image" src="https://github.com/user-attachments/assets/26840eb2-f4c7-4f20-8fa7-817f390321fc" />
+
 
 <h4> It follows 3 scenarios </h4>
 
