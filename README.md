@@ -72,10 +72,11 @@ The project is deployed on premise, no data leaves the premise.
 
 LLM + ML
 - [ ] Model selection for Mixture of Experts (MoE) - (gemma3: 4b, ?, ? )
+- [ ] MLX implementation for synthetic data generation and SFT + QLoRA 
 - [ ] Optimization / Ensemble function to minimize Consensus illusion. refer: https://openreview.net/forum?id=saDOrrnNTz
 - [ ] Hardware selection for deployment
 - [ ] Prototype development and simulation
-- [ ] Evaluation framework low TN, low TP, high recall, Precision and balanced F1 score
+- [ ] Evaluation framework for critical level (classification), reasoning and evidence (cosine similarity, metrics matching, LLM as judge)
 
 Andriod APP
 - [ ] Develop an APP for Carers
